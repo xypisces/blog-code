@@ -13,8 +13,9 @@
 
 [虚拟dom实现](/virtual-dom/index.js)
 
-[2018年面试前端问什么](/interview/js-in-2018.md)
+[2018年面试前端问什么(纯题目)](/interview/js-in-2018-question.md)
 
+[2018年面试前端问什么](/interview/js-in-2018.md)
 
 ![emm](emm.png)
 
