@@ -6,16 +6,15 @@
 
 ### JS
 
-- js继承的实现（es5,es6）
-- 闭包的使用
+- js继承的实现（es5,es6）(✅)
+- 闭包的使用(✅)
 - 原型链
 - 事件循环机制
 - ES6新知识点
 - promise实现，源码，异步处理和执行（事件循环）
-- instanceof原理
 - aync+await
 - proxy
-- 常有方法的实现(bind,create,new,debounce,throttle,深克隆)
+- 常有方法的实现(bind,create,new,debounce,throttle,深克隆,instanceof)(✅)
 
 ### 网络
 
