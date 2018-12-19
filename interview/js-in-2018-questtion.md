@@ -1,8 +1,8 @@
 
 ### HTML,CSS
 
-- css-module知识
-- div实现三角形
+- css-module知识(✅)
+- div实现三角形(✅)
 
 ### JS
 
