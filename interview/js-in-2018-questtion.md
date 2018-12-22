@@ -10,10 +10,10 @@
 - 闭包的使用(✅)
 - 原型链(✅)
 - 事件循环机制(✅)
-- ES6新知识点
-- promise实现，源码，异步处理和执行（事件循环）
+- ES6新知识点(✅)
+- promise实现，源码，异步处理和执行（事件循环）(✅)
 - aync+await
-- proxy
+- proxy(✅)
 - 常有方法的实现(bind,create,new,debounce,throttle,深克隆,instanceof)(✅)
 
 ### 网络
@@ -37,7 +37,7 @@
 
 ### Node
 
-- node如何捕获错误
+- node如何捕获错误(✅)
 
 ### 工程化
 

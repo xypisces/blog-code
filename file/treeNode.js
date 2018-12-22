@@ -25,16 +25,18 @@ let tree = {
 
 //请实现⼀一个查询函数，通过输⼊入Tree 的 Root Node 和 Id，返回与其匹配的节点，
 function findNodeById(root, id) {
+  let obj = null
   if(root.id === id){
    return root
-  }else{
-    if(root.children){
-      root.children.forEach(item => {
-        return findNodeById(item, id)
-      })
-    }
+  }else if(root.children){
+    root.children.forEach(item => {
+      // if(obj !== null){
+      //   return;
+      // }
+      obj = findNodeById(item, id)
+    })
   }
+  return obj
 }
 
-const obj = findNodeById(tree, '4')
-console.log(obj)
+console.log(findNodeById(tree, "4"))
