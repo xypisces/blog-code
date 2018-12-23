@@ -16,6 +16,26 @@ enabled: true, // 未指定值的 key 约定值为 true
 */
 ```
 
-```js
+[源码](../test/parseParam.js)
 
-```
+
+### 实现简单的模版引擎
+
+render('我是{{name}}，年龄{{age}}，性别{{sex}}',{
+name:'姓名',
+age:18
+})
+
+// 结果： 我是姓名，年龄18，性别undefined。
+
+[源码](../test/render.js)
+
+### 数据绑定的最基本实现
+
+// 有一个全局变量 a，有一个全局函数 b，实现一个方法bindData，执行后，a的任何赋值都会触发b的执行。
+var a = 1;
+function b(){
+console.log('a的值发生改变');
+}
+bindData();
+a = 2; // 此时输出 a的值发生改变
