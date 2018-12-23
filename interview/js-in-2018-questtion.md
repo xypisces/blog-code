@@ -50,10 +50,10 @@
 
 - vue响应式原理
 - react16新特性
-- react的diff算法的实现，为什么要优化(之前是o(n^3))
-- react的synthetic event
+- react的diff算法的实现，为什么要优化(之前是o(n^3))(✅)
+- react的synthetic event（onclick这些）
 - 熟悉的设计模式
 - 模块机制
-- mvvm原理
-- 路由机制
-- 状态管理
+- mvvm原理=双向数据绑定(✅)
+- 路由机制(✅)
+- 状态管理（redux)
