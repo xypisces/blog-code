@@ -9,5 +9,14 @@ module.exports = {
     publicPath: __dirname + "/dist/",
     path: path.resolve(__dirname, "dist"),
     filename: "index.js"
+  },
+  module:{
+    rules:[{
+      test: /\.css$/,
+      use:[
+        'style-loader',
+        'css-loader'
+      ]
+    }]
   }
 }
