@@ -2,6 +2,7 @@ import _ from 'lodash';
 import './style.css'
 import Icon from './logo.png'
 import printMe from './print'
+import anthor from './anthor'
 
 function component() {
   const ele = document.createElement('div')

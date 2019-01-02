@@ -17,7 +17,8 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       title: 'cache webpack'
-    })
+    }),
+    new webpack.HashedModuleIdsPlugin()
   ],
   optimization: {
     runtimeChunk: 'single',
